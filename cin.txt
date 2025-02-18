@@ -1,0 +1,26 @@
+create table seat_type(seatNo int,seat_type varchar(200),amount int,primary key(seatNo));
+
+insert into seat_type values(1,'Normal',3000);
+insert into seat_type values(2,'Normal',3000);
+insert into seat_type values(3,'Normal',3000);
+insert into seat_type values(4,'Normal',3000);
+insert into seat_type values(5,'Normal',3000);
+insert into seat_type values(6,'Normal',3000);
+insert into seat_type values(7,'Normal',3000);
+insert into seat_type values(8,'Normal',3000);
+insert into seat_type values(9,'Normal',3000);
+insert into seat_type values(10,'Normal',3000);
+insert into seat_type values(11,'VIP',4000);
+insert into seat_type values(12,'VIP',4000);
+insert into seat_type values(13,'VIP',4000);
+insert into seat_type values(14,'VIP',4000);
+insert into seat_type values(15,'VIP',4000);
+insert into seat_type values(16,'VVIP',6000);
+insert into seat_type values(17,'VVIP',6000);
+insert into seat_type values(18,'VVIP',6000);
+insert into seat_type values(19,'VVIP',6000);
+insert into seat_type values(20,'VVIP',6000);
+
+
+create table bank(bank_id int auto_increment,card_id varchar(300),card_password varchar(300),primary key(bank_id));
+insert into bank values(1,'','abc123'); 
